@@ -1,0 +1,35 @@
+.detail {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  padding: 40px;
+  color: #fff;
+}
+
+.detail p {
+  margin-top: 30px;
+}
+
+.detail-btn {
+  width: 150px;
+  padding: 10px 0;
+  margin: 100px 10px;
+  background-color: darkblue;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.close-btn {
+  cursor: pointer;
+}
+
+.detail-btn a {
+  color: #fff;
+  text-decoration: none;
+}

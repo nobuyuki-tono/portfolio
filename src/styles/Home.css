@@ -1,0 +1,100 @@
+.home {
+  height: 100vh;
+  /* background-color: rgb(0, 0, 0); */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/wes-hicks-MEL-jJnm7RQ-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.home-heading {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home-heading h1 {
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin: 10px;
+  padding: 10px;
+  animation: moveRight 2s ease-out;
+}
+
+.home-heading p {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  animation: moveLeft 2s ease-out;
+}
+
+.heading-btn-div {
+  width: 250px;
+
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  animation: moveUp 2s ease-out;
+  transition: all 0.5s;
+}
+
+.heading-btn-div:hover {
+  transform: scale(1.2);
+}
+
+.heading-btn {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: lightseagreen;
+  color: #fff;
+
+  padding: 15px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.heading-btn:hover {
+  background-color: rgb(28, 153, 147);
+
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
