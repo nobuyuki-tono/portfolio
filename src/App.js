@@ -2,6 +2,7 @@ import React from "react";
 
 import Home from "./components/Home";
 import Work from "./components/Work";
+import Skill from "./components/Skill";
 
 import "./App.css";
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Home />
       <Work />
+      <Skill />
     </div>
   );
 }
