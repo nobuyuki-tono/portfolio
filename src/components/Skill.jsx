@@ -14,12 +14,35 @@ const Skill = () => {
   return (
     <div className="skill">
       <h1>Skills I have</h1>
-      <div className="skill-list">
-        <SkillLogo logo={htmlLogo} />
-        <SkillLogo logo={cssLogo} />
-        <SkillLogo logo={jsLogo} />
-        <SkillLogo logo={reactLogo} />
-        <SkillLogo logo={nodeJsLogo} />
+      <div className="skill-container">
+        <h3>Front-end</h3>
+        <div className="skill-list">
+          <SkillLogo logo={htmlLogo} />
+          <SkillLogo logo={cssLogo} />
+          <SkillLogo logo={jsLogo} />
+          <SkillLogo logo={reactLogo} />
+          <SkillLogo logo={nodeJsLogo} />
+        </div>
+      </div>
+      <div className="skill-container">
+        <h3>Back-end</h3>
+        <div className="skill-list">
+          <SkillLogo logo={htmlLogo} />
+          <SkillLogo logo={cssLogo} />
+          <SkillLogo logo={jsLogo} />
+          <SkillLogo logo={reactLogo} />
+          <SkillLogo logo={nodeJsLogo} />
+        </div>
+      </div>
+      <div className="skill-container">
+        <h3>Other</h3>
+        <div className="skill-list">
+          <SkillLogo logo={htmlLogo} />
+          <SkillLogo logo={cssLogo} />
+          <SkillLogo logo={jsLogo} />
+          <SkillLogo logo={reactLogo} />
+          <SkillLogo logo={nodeJsLogo} />
+        </div>
       </div>
     </div>
   );
