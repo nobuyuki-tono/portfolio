@@ -1,4 +1,13 @@
 .skill-logo img {
+  margin: 5px 30px;
   width: 100px;
   height: 100px;
+}
+
+@media (max-width: 800px) {
+  .skill-logo img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+  }
 }
