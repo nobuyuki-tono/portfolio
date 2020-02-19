@@ -10,23 +10,23 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-icon">
           <a href="rockmusic2090@gmail.com" target="_blank">
-            <i class="fas fa-envelope-square icon"></i>
+            <i className="fas fa-envelope-square icon"></i>
           </a>
         </div>
         <div className="contact-icon">
           <a href="https://www.linkedin.com/in/nobuyuki-tono/" target="_blank">
-            <i class="fab fa-linkedin icon"></i>
+            <i className="fab fa-linkedin icon"></i>
           </a>
         </div>
         <div className="contact-icon">
           <a href="https://github.com/nobuyuki-tono" target="_blank">
-            <i class="fab fa-github-square icon"></i>
+            <i className="fab fa-github-square icon"></i>
           </a>
         </div>
 
         <div className="contact-icon">
           <a href="https://twitter.com/nobu_love_rock" target="_blank">
-            <i class="fab fa-twitter-square icon"></i>
+            <i className="fab fa-twitter-square icon"></i>
           </a>
         </div>
       </div>

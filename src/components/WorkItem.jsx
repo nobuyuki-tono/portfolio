@@ -4,7 +4,14 @@ import ItemDetail from "./ItemDetail";
 
 import "../styles/WorkItem.css";
 
-const WorkItem = ({ title, imgUrl, detailText }) => {
+const WorkItem = ({
+  title,
+  imgUrl,
+  detailText,
+  skills,
+  siteUrl,
+  githubUrl
+}) => {
   const [showDetail, setShowDetail] = useState(false);
 
   const handleClick = () => {
@@ -12,7 +19,6 @@ const WorkItem = ({ title, imgUrl, detailText }) => {
   };
 
   const closeDetail = () => {
-    console.log("HEllo");
     setShowDetail(false);
   };
 
@@ -23,12 +29,20 @@ const WorkItem = ({ title, imgUrl, detailText }) => {
         <h3 className="project-title">{title}</h3>
         <div onClick={handleClick} className="project-skill">
           <ul>
-            <li>React</li>
+            {skills.map((skill, index) => {
+              return <li key={index}>{skill}</li>;
+            })}
           </ul>
         </div>
       </div>
       {showDetail ? (
-        <ItemDetail title={title} text={detailText} closeDetail={closeDetail} />
+        <ItemDetail
+          title={title}
+          text={detailText}
+          closeDetail={closeDetail}
+          siteUrl={siteUrl}
+          githubUrl={githubUrl}
+        />
       ) : (
         ""
       )}

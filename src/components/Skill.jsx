@@ -12,6 +12,7 @@ import nodeJsLogo from "../img/nodeJs-logo.png";
 import reduxLogo from "../img/redux-logo.png";
 import mongodbLogo from "../img/mongodb-logo.png";
 import npmLogo from "../img/npm-logo.png";
+import dockerLogo from "../img/docker-logo.png";
 
 const gitLogo =
   "https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png";
@@ -45,9 +46,9 @@ const Skill = () => {
         </div>
       </div>
       <div className="skill-container">
-        <h3>Eager to learn</h3>
+        <h3>Learning process & Eager to learn</h3>
         <div className="skill-list">
-          <SkillLogo logo={gitLogo} />
+          <SkillLogo logo={dockerLogo} />
           <SkillLogo logo={npmLogo} />
         </div>
       </div>

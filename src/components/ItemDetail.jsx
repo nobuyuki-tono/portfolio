@@ -2,8 +2,8 @@ import React from "react";
 
 import "../styles/ItemDetail.css";
 
-const ItemDetail = ({ closeDetail, title, text }) => {
-  console.log("Hello", closeDetail);
+const ItemDetail = ({ closeDetail, title, text, siteUrl, githubUrl }) => {
+  console.log(siteUrl);
   return (
     <div className="detail">
       <h1>{title}</h1>
@@ -13,10 +13,14 @@ const ItemDetail = ({ closeDetail, title, text }) => {
           CLOSE
         </button>
         <button className="detail-btn">
-          <a href="">GO TO WEBSITE</a>
+          <a href={siteUrl} target="_blanck">
+            GO TO WEBSITE
+          </a>
         </button>
         <button className="detail-btn">
-          <a href="">GO TO Github</a>
+          <a href={githubUrl} target="_blanck">
+            GO TO Github
+          </a>
         </button>
       </div>
     </div>
