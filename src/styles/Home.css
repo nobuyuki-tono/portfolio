@@ -5,6 +5,8 @@
     url("../img/wes-hicks-MEL-jJnm7RQ-unsplash.jpg");
   background-position: center;
   background-size: cover;
+
+  /* position: absolute; */
 }
 
 .home-heading {
@@ -96,5 +98,22 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .home-heading {
+    width: 90%;
+  }
+  .home-heading h1 {
+    margin: auto;
+    font-size: 25px;
+  }
+  .home-heading p {
+    font-size: 16px;
+  }
+
+  .heading-btn-div {
+    text-align: center;
   }
 }

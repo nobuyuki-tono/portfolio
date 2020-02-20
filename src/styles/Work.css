@@ -49,3 +49,17 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media (max-width: 600px) {
+  .project-container {
+    grid-template-columns: 1fr;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
+  .project {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+  }
+}
