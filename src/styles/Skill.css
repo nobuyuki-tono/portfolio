@@ -31,3 +31,12 @@
   text-align: center;
   color: #fff;
 }
+
+@media (max-width: 700px) {
+  .skill h1 {
+    font-size: 30px;
+  }
+  .skill-container h3 {
+    font-size: 20px;
+  }
+}

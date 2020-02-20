@@ -15,7 +15,7 @@ const Work = () => {
         <h1>MY WORK</h1>
       </div>
       <div className="work-personal">
-        <h1>Personal Project</h1>
+        <h2>Personal Project</h2>
         <div className="project-container">
           <WorkItem
             title="You Times"
@@ -42,7 +42,7 @@ const Work = () => {
         <button className="btn-more btn">More</button>
       </div>
       <div className="work-team">
-        <h1>Team Project</h1>
+        <h2>Team Project</h2>
         <div className="project-container">
           <WorkItem
             title="Client Project"

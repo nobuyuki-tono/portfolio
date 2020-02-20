@@ -9,9 +9,6 @@ const ItemDetail = ({ closeDetail, title, text, siteUrl, githubUrl }) => {
       <h1>{title}</h1>
       <p>{text}</p>
       <div>
-        <button onClick={closeDetail} className="detail-btn close-btn">
-          CLOSE
-        </button>
         <button className="detail-btn">
           <a href={siteUrl} target="_blanck">
             GO TO WEBSITE
@@ -21,6 +18,9 @@ const ItemDetail = ({ closeDetail, title, text, siteUrl, githubUrl }) => {
           <a href={githubUrl} target="_blanck">
             GO TO Github
           </a>
+        </button>
+        <button onClick={closeDetail} className="detail-btn close-btn">
+          CLOSE
         </button>
       </div>
     </div>
