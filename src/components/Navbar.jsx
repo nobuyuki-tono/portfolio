@@ -20,7 +20,7 @@ const Navbar = () => {
             <a href="#contact">CONTACT</a>
           </li>
           <li>
-            <a href="nobuyuki-tono-resume2.pdf" target="_blank">
+            <a href="nobuyuki-tono-resume.pdf" target="_blank">
               RESUME
             </a>
           </li>
@@ -49,7 +49,7 @@ const Navbar = () => {
                   <a href="#contact">CONTCT</a>
                 </li>
                 <li>
-                  <a href="nobuyuki-tono-resume2.pdf" target="_blank">
+                  <a href="nobuyuki-tono-resume.pdf" target="_blank">
                     RESUME
                   </a>
                 </li>
