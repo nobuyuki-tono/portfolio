@@ -9,7 +9,7 @@ const Contact = () => {
 
       <div className="contact-container">
         <div className="contact-icon">
-          <a href="rockmusic2090@gmail.com" target="_blank">
+          <a href="mailto:rockmusic2090@gmail.com" target="_blank">
             <i className="fas fa-envelope-square icon"></i>
           </a>
         </div>

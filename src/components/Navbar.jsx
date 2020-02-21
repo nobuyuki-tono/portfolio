@@ -20,7 +20,9 @@ const Navbar = () => {
             <a href="#contact">CONTACT</a>
           </li>
           <li>
-            <a href="#contact">RESUME</a>
+            <a href="resume.pdf" target="_blank">
+              RESUME
+            </a>
           </li>
         </ul>
       </div>
@@ -35,16 +37,16 @@ const Navbar = () => {
             <div>
               <ul>
                 <li>
-                  <a href="">HOME</a>
+                  <a href="#home">HOME</a>
                 </li>
                 <li>
-                  <a href="">WORK</a>
+                  <a href="#work">WORK</a>
                 </li>
                 <li>
-                  <a href="">SKILL</a>
+                  <a href="#skill">SKILL</a>
                 </li>
                 <li>
-                  <a href="">CONTCT</a>
+                  <a href="#contact">CONTCT</a>
                 </li>
                 <li>
                   <a href="">RESUME</a>

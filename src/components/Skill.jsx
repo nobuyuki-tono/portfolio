@@ -13,6 +13,12 @@ import reduxLogo from "../img/redux-logo.png";
 import mongodbLogo from "../img/mongodb-logo.png";
 import npmLogo from "../img/npm-logo.png";
 import dockerLogo from "../img/docker-logo.png";
+import sassLogo from "../img/sass-logo.png";
+import typeScriptLogo from "../img/typescript-logo.png";
+import mysqlLogo from "../img/mysql-logo.png";
+import pythonLogo from "../img/python-logo.png";
+import grapqlLogo from "../img/graphql-logo.png";
+import jestLogo from "../img/jest-logo.jpg";
 
 const gitLogo =
   "https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png";
@@ -29,6 +35,7 @@ const Skill = () => {
           <SkillLogo logo={jsLogo} />
           <SkillLogo logo={reactLogo} />
           <SkillLogo logo={reduxLogo} />
+          <SkillLogo logo={sassLogo} />
         </div>
       </div>
       <div className="skill-container">
@@ -48,8 +55,12 @@ const Skill = () => {
       <div className="skill-container">
         <h3>Learning process & Eager to learn</h3>
         <div className="skill-list">
+          <SkillLogo logo={typeScriptLogo} />
+          <SkillLogo logo={grapqlLogo} />
+          <SkillLogo logo={pythonLogo} />
           <SkillLogo logo={dockerLogo} />
-          <SkillLogo logo={npmLogo} />
+          <SkillLogo logo={mysqlLogo} />
+          <SkillLogo logo={jestLogo} />
         </div>
       </div>
     </div>
