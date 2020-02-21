@@ -38,7 +38,7 @@ const Work = () => {
             title="Portfolio"
             imgUrl={portfolioImg}
             skills={["React.js", "CSS"]}
-            detailText="My personal portfolio. I used React.js to create this website"
+            detailText="My personal portfolio. Used skills are React.js"
             siteUrl=""
             githubUrl="https://github.com/nobuyuki-tono/portfolio"
           />
@@ -62,7 +62,7 @@ const Work = () => {
             skills={["React.js", "Sass"]}
             siteUrl="https://lucid-benz-f12be9.netlify.com/"
             githubUrl="https://github.com/Vlad-Vekslyer/tri-tech"
-            detailText="This is a simple TO Do List APP. You can add task, update task, and delete task."
+            detailText="This is a prototype landing website for client. We workd as a team. Used skills are React.js and Sass"
           />
         </div>
       </div>
