@@ -42,9 +42,11 @@
   text-decoration: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .detail {
-    height: 50%;
+    height: 40%;
+    position: fixed;
+    top: 30px;
   }
   .detail-btn {
     width: 90px;
