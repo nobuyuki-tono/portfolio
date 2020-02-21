@@ -33,6 +33,7 @@ const WorkItem = ({
               return <li key={index}>{skill}</li>;
             })}
           </ul>
+          <p className="p-smalldevice">Tap to see detail</p>
         </div>
       </div>
       {showDetail ? (

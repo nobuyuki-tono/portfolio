@@ -42,6 +42,10 @@
   text-decoration: none;
 }
 
+.p-smalldevice {
+  visibility: hidden;
+}
+
 @media (max-width: 1000px) {
   .detail {
     height: 40%;

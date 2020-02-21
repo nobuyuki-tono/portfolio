@@ -37,9 +37,19 @@
   font-size: 20px;
 }
 
+.p-smalldevice {
+  visibility: hidden;
+}
+
 @media (max-width: 700px) {
   .project-skill ul li {
     font-size: 12px;
     padding: 3px;
+  }
+
+  .p-smalldevice {
+    color: #fff;
+    visibility: visible;
+    padding-top: 20px;
   }
 }
