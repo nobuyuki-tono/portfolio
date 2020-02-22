@@ -46,7 +46,7 @@ const Navbar = () => {
                   <a href="#skill">SKILL</a>
                 </li>
                 <li>
-                  <a href="#contact">CONTCT</a>
+                  <a href="#contact">CONTACT</a>
                 </li>
                 <li>
                   <a href="nobuyuki-tono-resume.pdf" target="_blank">
