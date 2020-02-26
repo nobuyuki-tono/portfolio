@@ -26,6 +26,7 @@ const Work = () => {
             githubUrl="https://github.com/nobuyuki-tono/your-times"
             skills={[
               "React.js",
+              "HTML",
               "Sass",
               "Node.js",
               "Express.js",
@@ -37,7 +38,7 @@ const Work = () => {
           <WorkItem
             title="Portfolio"
             imgUrl={portfolioImg}
-            skills={["React.js", "CSS"]}
+            skills={["React.js", "HTML", "CSS"]}
             detailText="My personal portfolio. Used skills are React.js"
             siteUrl=""
             githubUrl="https://github.com/nobuyuki-tono/portfolio"
@@ -46,7 +47,7 @@ const Work = () => {
             title="Lyrify"
             imgUrl={lyrifyImg}
             detailText="Lyrify is a music lyrics search website.Used skills are React.js and "
-            skills={["React.js", "CSS", "Rest-API"]}
+            skills={["React.js", "HTML", "CSS", "Rest-API"]}
             siteUrl="https://lyrify34568795.netlify.com/"
             githubUrl="https://github.com/nobuyuki-tono/react-lyrics-search-app-lyrify"
           />
@@ -59,7 +60,7 @@ const Work = () => {
           <WorkItem
             title="Client Project"
             imgUrl={triTechImg}
-            skills={["React.js", "Sass"]}
+            skills={["React.js", "HTML", "Sass"]}
             siteUrl="https://lucid-benz-f12be9.netlify.com/"
             githubUrl="https://github.com/Vlad-Vekslyer/tri-tech"
             detailText="This is a prototype landing website for client. We workd as a team. Used skills are React.js and Sass"
