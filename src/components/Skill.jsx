@@ -20,6 +20,7 @@ import pythonLogo from "../img/python-logo.png";
 import grapqlLogo from "../img/graphql-logo.png";
 import jestLogo from "../img/jest-logo.jpg";
 import firebaseLogo from "../img/firebase-logo.png";
+import wordpress from "../img/wordpress-logo.png";
 
 const gitLogo =
   "https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png";
@@ -63,6 +64,7 @@ const Skill = () => {
           <SkillLogo logo={mysqlLogo} />
           <SkillLogo logo={jestLogo} />
           <SkillLogo logo={firebaseLogo} />
+          <SkillLogo logo={wordpress} />
         </div>
       </div>
     </div>
