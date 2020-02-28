@@ -8,19 +8,31 @@ const Navbar = () => {
       <div className="navbar">
         <ul>
           <li>
-            <a href="#home">HOME</a>
+            <a rel="noopener noreferrer" href="#home">
+              HOME
+            </a>
           </li>
           <li>
-            <a href="#work">WORK</a>
+            <a rel="noopener noreferrer" href="#work">
+              WORK
+            </a>
           </li>
           <li>
-            <a href="#skill">SKILL</a>
+            <a rel="noopener noreferrer" href="#skill">
+              SKILL
+            </a>
           </li>
           <li>
-            <a href="#contact">CONTACT</a>
+            <a rel="noopener noreferrer" href="#contact">
+              CONTACT
+            </a>
           </li>
           <li>
-            <a href="nobuyuki-tono-resume.pdf" target="_blank">
+            <a
+              rel="noopener noreferrer"
+              href="nobuyuki-tono-resume.pdf"
+              target="_blank"
+            >
               RESUME
             </a>
           </li>
@@ -37,19 +49,31 @@ const Navbar = () => {
             <div>
               <ul>
                 <li>
-                  <a href="#home">HOME</a>
+                  <a rel="noopener noreferrer" href="#home">
+                    HOME
+                  </a>
                 </li>
                 <li>
-                  <a href="#work">WORK</a>
+                  <a rel="noopener noreferrer" href="#work">
+                    WORK
+                  </a>
                 </li>
                 <li>
-                  <a href="#skill">SKILL</a>
+                  <a rel="noopener noreferrer" href="#skill">
+                    SKILL
+                  </a>
                 </li>
                 <li>
-                  <a href="#contact">CONTACT</a>
+                  <a rel="noopener noreferrer" href="#contact">
+                    CONTACT
+                  </a>
                 </li>
                 <li>
-                  <a href="nobuyuki-tono-resume.pdf" target="_blank">
+                  <a
+                    rel="noopener noreferrer"
+                    href="nobuyuki-tono-resume.pdf"
+                    target="_blank"
+                  >
                     RESUME
                   </a>
                 </li>

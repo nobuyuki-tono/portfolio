@@ -9,23 +9,39 @@ const Contact = () => {
 
       <div className="contact-container">
         <div className="contact-icon">
-          <a href="mailto:rockmusic2090@gmail.com" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="mailto:rockmusic2090@gmail.com"
+            target="_blank"
+          >
             <i className="fas fa-envelope-square icon"></i>
           </a>
         </div>
         <div className="contact-icon">
-          <a href="https://www.linkedin.com/in/nobuyuki-tono/" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/nobuyuki-tono/"
+            target="_blank"
+          >
             <i className="fab fa-linkedin icon"></i>
           </a>
         </div>
         <div className="contact-icon">
-          <a href="https://github.com/nobuyuki-tono" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://github.com/nobuyuki-tono"
+            target="_blank"
+          >
             <i className="fab fa-github-square icon"></i>
           </a>
         </div>
 
         <div className="contact-icon">
-          <a href="https://twitter.com/nobu_love_rock" target="_blank">
+          <a
+            rel="noopener noreferrer"
+            href="https://twitter.com/nobu_love_rock"
+            target="_blank"
+          >
             <i className="fab fa-twitter-square icon"></i>
           </a>
         </div>
